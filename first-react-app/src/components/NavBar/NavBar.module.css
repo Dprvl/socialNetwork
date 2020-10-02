@@ -5,9 +5,20 @@
   /* background-color: cyan; */
   border: rgb(200, 200, 200) 2px solid;
   border-radius: 0 20px 20px 0;
+  font-weight: 700;
 }
 
+.navItem a {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+  letter-spacing: 2px;
+  line-height: 3em;
+  padding-top: 5px;
+}
 
+.navItem a:hover {
+  text-decoration: underline;
+}
 
 .navItem {
   color: white;
