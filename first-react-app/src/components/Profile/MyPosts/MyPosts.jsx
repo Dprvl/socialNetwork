@@ -5,13 +5,14 @@ import css from './MyPosts.module.css';
 const MyPosts = () => {
   return (
     <div className={css.postsStyle}>
-      My posts
+      <h3>My posts</h3>
       <div>
-      <textarea placeholder="кто прочитал тот здохнет"></textarea>
-      <button>PUBLISH</button>
+        <textarea placeholder="кто прочитал тот здохнет"></textarea>
       </div>
-      <Post message="BENIS::DDDDD"/>
-      <Post message="BAGINA:DDD:D"/>
+      <div><button>PUBLISH</button>
+      </div>
+      <Post message="BENIS::DDDDD" />
+      <Post message="BAGINA:DDD:D" />
     </div>
   )
 }

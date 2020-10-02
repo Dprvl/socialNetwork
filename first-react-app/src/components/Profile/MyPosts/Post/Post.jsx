@@ -4,7 +4,7 @@ import css from './Post.module.css';
 const Post = (props) => {
   return (
       <div className={css.postItem}>
-        {props.message}
+        <span><img src="https://astv.ru/content/Avatars/05/93/0593ef7c-4a91-4ee4-8c74-1762c0a0051e_2.jpg" /></span><span>{props.message}</span>
       </div>
   )
 }
