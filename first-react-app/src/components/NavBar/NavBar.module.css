@@ -8,10 +8,11 @@
 }
 
 
+
 .navItem {
-  color: blue;
+  color: white;
 }
 
-.navItem.active {
-  color: rebeccapurple;
+.navItem a.activeLink {
+  color: gold;
 }
