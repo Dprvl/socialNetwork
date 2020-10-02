@@ -7,7 +7,7 @@ const MyPosts = () => {
     <div className={css.postsStyle}>
       My posts
       <div>
-      <textarea></textarea>
+      <textarea placeholder="кто прочитал тот здохнет"></textarea>
       <button>PUBLISH</button>
       </div>
       <Post message="BENIS::DDDDD"/>
