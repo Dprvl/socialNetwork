@@ -18,18 +18,30 @@ const Message = (props) => {
   )
 };
 
+let dialogsData = [
+  { id: 1, name: 'Valera'},
+  { id: 2, name: 'Bagina'},
+  { id: 3, name: 'Benis'},
+  { id: 4, name: 'Denis'}
+]
+let messageData = [
+  { id: 1, message: 'Hey'},
+  { id: 2, message: 'Hoe'},
+  { id: 3, message: 'Huy'},
+  { id: 4, message: 'Daa'}
+]
 const Dialogs = (props) => {
   return (
     <div className={css.dialogs}>
       <div className={css.dialogItems}>
-        <DialogItem name="Valera" id="1" />
-        <DialogItem name="Bagina" id="2" />
+        <DialogItem name={dialogsData[0].name} id={dialogsData[0].id} />
+        <DialogItem name={dialogsData[1].name} id={dialogsData[1].name} />
         <DialogItem name="Benis" id="3" />
         <DialogItem name="Denis" id="4" />
       </div>
       <div className={css.messages}>
-        <Message message="Hey" />
-        <Message message="Hoe" />
+        <Message message={messageData[0].message} />
+        <Message message={messageData[1].message} />
         <Message message="Huy" />
       </div>
     </div>
