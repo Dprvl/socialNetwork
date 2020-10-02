@@ -1,23 +1,26 @@
 import React from 'react';
-import classes from './NavBar.module.css';
+import css from './NavBar.module.css';
 
 const NavBar = () => {
-    return (
-        <nav className={classes.nav}>
-        <div className={`${classes.navItem} ${classes.active}`}>
-          <a>Profile</a>  
-        </div>
-        <div className={classes.navItem}>
-        <a>Education</a>
-        </div>
-        <div className={classes.navItem}>
-          <a>Work experience</a>
-        </div>
-        <div className={classes.navItem}>
-          <a>About me</a>
-        </div>
+  return (
+    <nav className={css.nav}>
+      <div className={`${css.navItem} ${css.active}`}>
+        <a>Profile</a>
+      </div>
+      <div className={css.navItem}>
+        <a>Messages</a>
+      </div>
+      <div className={css.navItem}>
+        <a>News</a>
+      </div>
+      <div className={css.navItem}>
+        <a>Music</a>
+      </div>
+      <div className={css.navItem}>
+        <a>Settings</a>
+      </div>
     </nav>
-    )
+  )
 }
 
-export {NavBar};
+export { NavBar };
