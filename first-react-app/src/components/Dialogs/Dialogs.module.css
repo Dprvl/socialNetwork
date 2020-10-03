@@ -7,11 +7,6 @@
     padding: 10px;
 }
 
-.dialog.active {
-    color: darkblue;
-    font-weight: 700;
-}
-
 .dialog {
     padding: 10px;
 }
